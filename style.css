@@ -1,0 +1,107 @@
+img{
+    border-radius: 50%;
+    border: 5px solid black ;
+}
+.header{
+    background-color:#93684c;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: "80px";
+}
+.profile{
+    position: relative;
+}
+.header h1{
+    color:rgb(37, 25, 25);
+    font-size: 50px;
+}
+.header h4{
+    font-size: 20px;
+    font-family:'Raleway',sans-serif;
+}
+button{
+    height: 80px;
+    width: 500px;
+    border: 2px solid rgba(88, 41, 41, 0.89);
+    background-color:#7B4A2F;
+    border-radius: 20px;
+    color:white;
+    font-family: 'Karla';
+    font-size:20px;
+}
+.NameTag h1{
+    color:	#3B2F2F;
+    font-family:'Raleway',sans-serif;
+}
+
+.who{
+    background-color: 	#556B2F;
+  line-height: 1.6; /* 1.5 to 1.8 is comfortable */
+  color:			#FAF0E6;
+
+
+}
+.edu{
+    background-color: 	#D6C1A3;
+  line-height: 1.6; /* 1.5 to 1.8 is comfortable */
+
+
+}
+.Skillset{
+    background-color: #A8B584;
+    line-height: 1.6; /* 1.5 to 1.8 is comfortable */
+
+
+}
+.learn{
+    background-color:	#D6C1A3;
+    line-height: 1.6; /* 1.5 to 1.8 is comfortable */
+
+}
+.proj{
+    
+    background-color: 	#556B2F;
+    line-height: 1.6; /* 1.5 to 1.8 is comfortable */
+    color: 	#FAF0E6;
+
+}
+.proj ul{
+list-style-type: circle;
+}
+#reachout{
+    background-color: #93684c;
+    line-height: 1.6; /* 1.5 to 1.8 is comfortable */
+    font-size: 20px;
+
+}
+body{
+    font-family:'Raleway',sans-serif;
+}
+.de-sign{
+    font-family: 'Merriweather',sans-serif;
+}
+#skillList {
+  width: 250px;              /* Increase width */
+  height: 40px;              /* Increase height */
+  background-color: #d6cdbf; /* Soft cafe cream */
+  color: #333;               /* Text color */
+  border: 2px solid #4b3b2a; /* Border in coffee tone */
+  border-radius: 10px;       /* Rounded corners */
+  font-size: 16px;           /* Text size */
+  padding: 5px 10px;         /* Inner space */
+  font-family: 'Poppins', sans-serif; /* Custom font */
+
+}
+#skillList:hover {
+  background-color: #c6b89e; /* Slightly darker on hover */
+  cursor: pointer;
+}
+.Skillset label{
+    font-size: 20px;
+}
+.who ul{
+    list-style-type: circle;
+}
+.learn ul{
+    list-style-type: disc;
+}

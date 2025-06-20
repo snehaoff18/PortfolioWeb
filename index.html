@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<head>
+    <title>
+        Hey Welcome!
+    </title>
+    <link rel="stylesheet" href="style.css" >
+    <script src="script.js" defer></script>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&family=Quicksand:wght@300..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+
+    
+
+</head>
+<body style="margin: 0; padding: 0;">
+    <div class=" header" style="margin: 0 auto; padding: 20px;">
+    <div class="NameTag"><h1>Sneha Sridhar </h1></div>
+    <h4> An Application Developer </h4>
+ 
+    <div class=profile style="text-align: right;"><img src="Profile.jpeg" height="300px" weight="300px"></div><br>
+    <div class="de-sign" style="display: flex; justify-content: center; align-items: center; height: 100px;">
+        <h1 style="font-size: 300px; float: left;margin-left: 0%;margin-bottom: 33%;background-color:#93684c; color:rgba(0, 0, 0, 0.2);">DESIGN</h1>
+</div>
+
+    <button onclick="document.getElementById('reachout').scrollIntoView({ behavior: 'smooth' });"> Lets get to know well </button>
+
+    </div>
+  
+    <div class="who"style="margin: 0 auto; padding: 20px;" ><h1>Who am I ?</h1>
+    <h5>Hi, I'm a passionate creator blending code and design!<br>
+<ul><li>A Pre-final year student at Rajalakshmi Engineering College, pursuing Computer Science and Design.</li><br><li> I am  specialized in crafting engaging digital experiences as an App and Game Developer and a dedicated UI/UX Designer.</li><br>
+
+<li>With a deep passion for design projects, I love turning ideas into intuitive and visually compelling interfaces.</li><br><li>Whether it's building user-friendly apps or immersive game experiences, I enjoy every step of the creative process.</li><br>
+
+<li>Beyond the screen, I'm a sociable and collaborative person, always excited to connect, learn, and grow with others.</li><br><li>I'm on a mission to blend creativity with technology to build solutions that not only work,but inspire.</li></ul>
+</h5>
+</div>
+<div class="edu"  style="margin: 0 auto; padding: 20px;"><h1>Education</h1>
+<h5> ANNA UNIVERSITY | RAJALAKSHMI ENGINEERING COLLEGE&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;Chennai, India<br>
+Bachelor of Engineering in Computer Science and Design&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; 2022 - 2026<br>
+Data Structures & Algorithms, Database Management Systems,<br> Web and Mobile App Development, UI/UX Design Principles </h5>
+<h5>SBOA SCHOOL AND JUNIOR COLLEGE &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp;Chennai, India <br>
+Higher Secondary Education (HSLC) &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp;2021 - 2022<br>
+Achievements: 74.4%<br>
+</h5>
+<h5>Secondary Education (SSLC) &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;2018 - 2019<br>
+Achievements: 84.4%<br>
+</h5>
+</div>
+<div class="Skillset" style="margin: 0 auto; padding: 20px;">
+<h1> Skills </h1>
+<label for="skillList">Select a Skill</label>
+  <select id="skillList" onchange="showSkills()">
+    <option value="">Skill Set</option>
+    <option value="design">Design Skills</option>
+    <option value="development">Development Skills</option>
+    <option value="frameworks">Frameworks</option>
+  </select>
+
+  <div id="skillsDisplay"></div>    
+  </div>
+  <div class="proj" style="margin: 0 auto; padding: 20px;">
+  <h1>Projects</h1>
+  <table border="1">
+    <tr>
+        <th style="color:	#F5DEB3; text-decoration: underline;">Luna's Star Hunt</th>
+        <th style="color:	#F5DEB3; text-decoration: underline;">Say it well</th>
+        <th style="color:	#F5DEB3; text-decoration: underline;">MindSprint </th>
+    </tr>
+    <tr>
+        
+<td><ul><li>Developed a simple yet engaging 2D game using Unity with C#.</li><br>
+ <li>Designed and implemented game mechanics, animations, and interactive elements for an immersive player experience.</li><br>
+ <li>Utilized Unity's physics engine to create smooth character movement and collision detection.</li><br>
+ <li>Integrated UI elements, scoring system, and level progression to enhance gameplay.</li><br>
+<li>Built using Unity, C#, and Sprite-based assets for optimized performance.</li></ul><br>
+
+    </td>
+<td><ul><li>Processed and prepared speech data by cleaning, normalizing, and transforming audio inputs for model training and evaluation.</li><br>
+ <li>Implemented Speech-to-Text (STT) and Text-to-Speech (TTS) models, optimizing accuracy through noise reduction and phonetic analysis.</li><br>
+ <li>Designed a progress tracking system that visualizes children's speech improvements using bar graphs and performance analytics.</li><br>
+<li>Developed using Flutter for UI, Firebase for backend storage, and integrated speech recognition APIs for real-time processing</li></ul></td>
+<td>
+    <ul><li>Developed a focused and user-friendly productivity timer app using Android Studio with Kotlin.</li><br>
+ <li>Designed and implemented core features including a customizable timer, to-do list, notes section, and motivational alerts to help users
+manage procrastination.</li><br>
+ <li>Utilized Android's system services and foreground notifications to provide real-time break reminders via pop-up overlays.</li><br>
+ <li>Integrated intuitive UI elements for seamless navigation between home, timer, tasks, and notes.</li><br>
+ <li>Built with Kotlin and XML, using local data storage (Room and SharedPreferences) to ensure offline functionality and optimal performance
+across Android devices.</li></ul><br>
+</td>
+    </tr>
+  </table>
+  </div>
+
+
+  <div class="learn" style="margin: 0 auto; padding: 20px;">
+  <h1>Learnings</h1>
+  <h5>
+    <ul><li>Introduction to Internet of Things  NPTEL | Jul 2024-Oct 2024</li><br>
+<li>Foundations of User Experience (UX) Design  Coursera |Oct 2023-Nov2023</li><br>
+<li>Flutter and Dart  A Complete Guide [2025 edition] Udemy | Jan 2024-Present</li><br>
+<li>Complete C# Unity Game Developer 2D-Udemy|Dec 2024-Present</li></ul><br>
+
+  </h5>
+</div>
+<div id="reachout" style="margin: 0 auto; padding: 20px;">
+<h1>Reachout</h1>
+<i class="fa-brands fa-linkedin" style="font-size: 30px;"></i>
+<h4 style="display: inline; margin-left: 8px;"><a href="https://www.linkedin.com/in/sneha-sridhar-9414b3357/" rel="linkedin">Linkedin</a> </h4><br>
+<br>
+<i class="fa-brands fa-github" style="font-size: 30px;"></i>
+<h4 style="display: inline; margin-left: 8px;"><a href="https://github.com/snehaoff18"rel="github">Github</a></h4><br>
+<br>
+<i class="fa-solid fa-laptop" style="font-size: 30px;"></i>
+<h4 style="display: inline; margin-left: 8px;">snehasridharoff18@gmail.com</h4>
+</div>
+</body>
+
+</html>
